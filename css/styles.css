@@ -1,0 +1,35 @@
+body {
+  background-color: mintcream;
+}
+hr {
+  border-style: none; /*inset by default*/
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 6px;
+  width: 5%;
+}
+h1 {
+  color: cadetblue;
+  font-family: arial;
+}
+h3 {
+  color: cadetblue;
+  font-family: verdana;
+}
+p {
+  font-family: georgia;
+}
+ul, ol {
+  font-family: georgia;
+}
+table {
+  font-family: georgia;
+}
+img {
+  height: 200px;
+  width: 200px;
+}
+
+/* inline css has higher priority than internal > external
+   a style applied to a tag using inline code overrides the code inside <style> tag
+   which further overrides code written in the .css file */
